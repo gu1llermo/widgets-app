@@ -13,7 +13,7 @@ class MainApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Widgets App',
       home: Center(
-        child: Text('Hola'),
+        child: Text('Hola Mundo'),
       ),
     );
   }

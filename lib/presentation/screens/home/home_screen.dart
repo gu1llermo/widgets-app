@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:widgets_app/config/menu/menu_item.dart';
 import 'package:widgets_app/config/theme/app_theme.dart';
+import 'package:widgets_app/presentation/screens/buttons/buttons_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -8,9 +10,8 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Widgets en Flutter')),
-      body: const _HomeView(),
-    );
+        appBar: AppBar(title: const Text('Widgets en Flutter')),
+        body: const _HomeView());
   }
 }
 
@@ -30,7 +31,6 @@ class _HomeView extends StatelessWidget {
 
 class _CustomListTitle extends StatelessWidget {
   const _CustomListTitle({
-    super.key,
     required this.menuItem,
   });
 
@@ -46,7 +46,7 @@ class _CustomListTitle extends StatelessWidget {
       subtitle: Text(menuItem.subTitle),
       trailing: Icon(Icons.arrow_forward_ios_rounded, color: colors.primary),
       onTap: () {
-        // TODO: Navegar a otra pantalla
+        context.push(menuItem.link);
       },
     );
   }

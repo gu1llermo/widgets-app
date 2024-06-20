@@ -9,7 +9,7 @@ const colors = <Color>[
   Colors.deepPurple,
   Colors.orange,
   Colors.pink,
-  Colors.pinkAccent,
+  Color.fromARGB(255, 16, 192, 48),
 ];
 
 class AppTheme {

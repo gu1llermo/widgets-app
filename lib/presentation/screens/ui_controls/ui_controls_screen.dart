@@ -88,7 +88,7 @@ class _UiControlsViewState extends State<_UiControlsView> {
           ],
         ),
         CheckboxListTile(
-          title: const Text('Dinner'),
+          title: const Text('Cena?'),
           subtitle: const Text('comida sabrosa'),
           value: wantsDinner,
           onChanged: (value) => setState(() {
@@ -96,7 +96,7 @@ class _UiControlsViewState extends State<_UiControlsView> {
           }),
         ),
         CheckboxListTile(
-          title: const Text('Lunch'),
+          title: const Text('Almuerzo?'),
           subtitle: const Text('lunch'),
           value: wantsLunch,
           onChanged: (value) => setState(() {
@@ -104,7 +104,7 @@ class _UiControlsViewState extends State<_UiControlsView> {
           }),
         ),
         CheckboxListTile(
-          title: const Text('Breakfast'),
+          title: const Text('Desayuno?'),
           subtitle: const Text('Breakfast'),
           value: wantsBreakfast,
           onChanged: (value) => setState(() {

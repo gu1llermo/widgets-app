@@ -5,6 +5,7 @@ import 'package:widgets_app/presentation/screens/widgets/side_menu.dart';
 
 class HomeScreen extends StatelessWidget {
   static const name = 'home_screen';
+  static const path = '/';
   const HomeScreen({super.key});
 
   @override

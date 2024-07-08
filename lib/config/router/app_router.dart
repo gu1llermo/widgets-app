@@ -5,7 +5,7 @@ import 'package:widgets_app/presentation/screens/screens.dart';
 final appRouter = GoRouter(
   routes: [
     GoRoute(
-      path: '/',
+      path: HomeScreen.path,
       name: HomeScreen.name,
       builder: (context, state) => const HomeScreen(),
     ),

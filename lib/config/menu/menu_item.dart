@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widgets_app/presentation/screens/screens.dart';
 
 class MenuItem {
   final String title;
@@ -64,4 +65,9 @@ const appMenuItems = <MenuItem>[
       subTitle: 'Cambiar tema de la aplicación',
       link: '/theme-changer',
       icon: Icons.color_lens_outlined),
+  MenuItem(
+      title: 'Boya Chart Screen',
+      subTitle: 'BoyaChart',
+      link: BoyaScreen.path,
+      icon: Icons.bar_chart),
 ];

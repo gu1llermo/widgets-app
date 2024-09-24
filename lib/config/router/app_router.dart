@@ -59,5 +59,10 @@ final appRouter = GoRouter(
       name: ThemeChangerScreen.name,
       builder: (context, state) => const ThemeChangerScreen(),
     ),
+    GoRoute(
+      path: BoyaScreen.path,
+      name: BoyaScreen.name,
+      builder: (context, state) => const BoyaScreen(),
+    ),
   ],
 );

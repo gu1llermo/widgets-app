@@ -64,5 +64,20 @@ final appRouter = GoRouter(
       name: BoyaScreen.name,
       builder: (context, state) => const BoyaScreen(),
     ),
+    GoRoute(
+      path: TransformAnimations2Screen.path,
+      name: TransformAnimations2Screen.name,
+      builder: (context, state) => const TransformAnimations2Screen(),
+    ),
+    GoRoute(
+      path: TransformAnimations3Screen.path,
+      name: TransformAnimations3Screen.name,
+      builder: (context, state) => const TransformAnimations3Screen(),
+    ),
+    GoRoute(
+      path: TransformAnimations4Screen.path,
+      name: TransformAnimations4Screen.name,
+      builder: (context, state) => const TransformAnimations4Screen(),
+    ),
   ],
 );

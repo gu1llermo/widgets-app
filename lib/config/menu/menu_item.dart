@@ -70,4 +70,19 @@ const appMenuItems = <MenuItem>[
       subTitle: 'BoyaChart',
       link: BoyaScreen.path,
       icon: Icons.bar_chart),
+  MenuItem(
+      title: 'Transform Animations2 Screen',
+      subTitle: 'Transform PageView',
+      link: TransformAnimations2Screen.path,
+      icon: Icons.animation_outlined),
+  MenuItem(
+      title: 'Transform Animations3 Screen',
+      subTitle: 'Transform 3 PageView',
+      link: TransformAnimations3Screen.path,
+      icon: Icons.animation_outlined),
+  MenuItem(
+      title: 'Transform Animations4 Screen',
+      subTitle: 'Transform 4 PageView',
+      link: TransformAnimations4Screen.path,
+      icon: Icons.animation_outlined),
 ];

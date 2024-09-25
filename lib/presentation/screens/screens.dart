@@ -10,3 +10,6 @@ export 'package:widgets_app/presentation/screens/snackbar/snackbar_screen.dart';
 export 'package:widgets_app/presentation/screens/theme_changer/theme_changer_screen.dart';
 export 'package:widgets_app/presentation/screens/ui_controls/ui_controls_screen.dart';
 export 'package:widgets_app/presentation/screens/boya/boya_screen.dart';
+export 'package:widgets_app/presentation/screens/transform_animations2/transform_animations2_screen.dart';
+export 'package:widgets_app/presentation/screens/transform_animations3/transform_animations3_screen.dart';
+export 'package:widgets_app/presentation/screens/transform_animations4/transform_animations4_screen.dart';
